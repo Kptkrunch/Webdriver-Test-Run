@@ -44,7 +44,7 @@
     "@wdio/sync": "^6.5.0",
     "axios": "^0.20.0",
     "babel-loader": "^8.1.0",
-    "chromedriver": "^85.0.0",
+    "chromedriver": "^85.0.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
     "wdio-chromedriver-service": "^6.0.4",
