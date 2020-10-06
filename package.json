@@ -1,10 +1,10 @@
 {
-  "name": "bkbp",
+  "name": "webdriver practive run Mk-II",
   "version": "1.0.0",
-  "description": "A light weight full featured boiler plate",
+  "description": "Webdriver practive run",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest --coverage --watchAll",
     "updateSnap": "npm test -- -u",
     "build": "webpack -w --config webpack.config.js --mode production",
     "start": "webpack-dev-server --open",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kptkrunch/berryKrunchyBoilerPlate"
+    "url": ""
   },
   "author": "Joshua Edwards",
   "license": "MIT",

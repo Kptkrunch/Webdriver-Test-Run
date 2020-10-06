@@ -1,6 +1,9 @@
 # All node modules
 node_modules
 
+# jest coverage
+coverage
+
 # Visual Studio 2015 user specific files
 .vs/
 
