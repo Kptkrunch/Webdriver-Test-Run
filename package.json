@@ -1,10 +1,11 @@
 {
-  "name": "webdriver practive run Mk-II",
+  "name": "webdriver-practice-run",
   "version": "1.0.0",
   "description": "Webdriver practive run",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --watchAll",
+    "test": "wdio wdio.conf.js",
+    "jest": "jest --coverage --watchAll",
     "updateSnap": "npm test -- -u",
     "build": "webpack -w --config webpack.config.js --mode production",
     "start": "webpack-dev-server --open",
